@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Pacifico|Quattrocento&display=swap');
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Pacifico;
+  font-size: 16px;
+ 
+}
+
+.nav-link{
+  font-family: Cardo;
+  font-size: 36px;
+  text-align: center;
+  color: #3D3D3D;
+  text-decoration: none;
+  vertical-align: middle;
+  }
+
+
+.nav-link:hover{
+  transform: scale(1.05);
+  color: #787878;
+}
+
+.porfolio{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  font-family: Pacifico;
+  font-size: 13px;
+}
+
+
+.main{
+  padding-top: 30px; 
+}
+
+.place{
+  padding-top: 15px;
+  margin: 10px;
+}
+.place:hover{
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  transform: scale(1.01);
+}
+
+.image{
+  opacity: 0.9;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: inset 1px 0px 10px rgba(0,0,0,0.5);
+}
+.image:hover{
+  opacity: 1;
+}
+.cardinfo{
+  font-family: Cardo;
+  text-align: center;
+  margin-top: 15px; 
+}
+.info{
+  font-size: 16px;
+  font-family: Pacifico;
+}
+.info2{
+  padding-top: -15px;
+  font-family: Cardo;
+  font-size: 15px;
+}
+
+.about{
+  margin-top: 150px;
+  text-align: center;
+}
+.aboutimg{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+  opacity: 0.8;
+
+}
+.aboutme{
+  padding-top: 20px;
+  padding-bottom: 26px;
+  font-size: 36px;
+  font-family: Pacifico;
+}
+.aboutmeinfo{
+  margin: auto;
+  width: 80%;
+  font-size: 17px;
+  font-family: Cardo;
+  padding-bottom: 20px;
+}
+
+.social{
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 50px;
+  }
+.icon{
+  margin: 8px;
+  top: 50%;
+}
+.vk:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+ .inst:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+ .wsp:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+ .etsy:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
